@@ -25,7 +25,7 @@ from scrapy.crawler import CrawlerRunner
 from quote_scraper import QuoteSpider
 
 
-app = Flask('Scrape With Flask')
+application = app = Flask('Scrape With Flask')
 crawl_runner = CrawlerRunner()      # requires the Twisted reactor to run
 quotes_list = []                    # store quotes
 scrape_in_progress = False
