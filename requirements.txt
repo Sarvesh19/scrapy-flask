@@ -1,3 +1,4 @@
 flask
 scrapy
 crochet
+flask-cors
